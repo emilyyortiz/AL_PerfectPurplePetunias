@@ -5,16 +5,9 @@ public class ALTester{
 
       OrderedArrayList isSor = new OrderedArrayList();
       for (int i = 0; i < 23; i++){
-        isSor.add(i);
+        isSor.addLinear(i);
       }
 
-      OrderedArrayList notSor = new OrderedArrayList();
-      for (int i = 0; i < 23; i++){
-        notSor.add(i);
-      }
-      notSor.set(0, 2);
-
-      System.out.println("Should be false ... " + isSorted(notSor));
       System.out.println("Should be true ... " + isSorted(isSor));
   }
 
