@@ -1,1 +1,16 @@
-foo
+Perfect Purple Petunias (John Gupta-She, Emily Ortiz, Lauren Lee)
+APCS pd8
+L02: Well Al B. Sorted
+2021-12-13
+time spent: 1.0
+
+DISCO:
+- Because we are working with an ArrayList, we cannot use syntax that is usually used for arrays like a[i] or a.length.
+Instead we used syntax specific for ArrayList on the javaapi like get() and size()
+- get() works similar to a[i] and size() is similar to a.length
+- can set a new ArrayList to an old ArrayList (ie. notsort=sort)
+
+QCC:
+- What is the difference between shallow copy and deep copy and when should we use them
+
+We don't have to write methods such as set, remove, etc. in the wrapper class because these methods will work the same as in ArrayList.
