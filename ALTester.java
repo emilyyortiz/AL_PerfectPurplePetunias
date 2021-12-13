@@ -3,12 +3,12 @@ import java.util.ArrayList;
 public class ALTester{
   public static void main(String[] args){
 
-      ArrayList <Integer> isSor = new ArrayList <Integer>();
+      OrderedArrayList isSor = new OrderedArrayList();
       for (int i = 0; i < 23; i++){
         isSor.add(i);
       }
 
-      ArrayList <Integer> notSor = new ArrayList <Integer> ();
+      OrderedArrayList notSor = new OrderedArrayList();
       for (int i = 0; i < 23; i++){
         notSor.add(i);
       }
@@ -18,7 +18,7 @@ public class ALTester{
       System.out.println("Should be true ... " + isSorted(isSor));
   }
 
-  private static boolean isSorted(ArrayList <Integer> a){
+  private static boolean isSorted(OrderedArrayList a){
     if (a.size() == 1){
       return true;
     }
@@ -29,4 +29,5 @@ public class ALTester{
     }
     return true;
   }
+
 }
